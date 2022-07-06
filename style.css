@@ -1,0 +1,241 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/*banner section */
+
+.banner {
+
+    background-image: url(donate-today-main/images/donation7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 68vh;
+}
+
+.banner-text {
+    margin: auto;
+    width: 40%;
+    padding: 85px 10px 20px 10px;
+    text-align: center;
+    color: white;
+
+}
+
+.banner-text h1 {
+    font-size: 2.5em;
+    color: white;
+}
+
+.link-button {
+    text-decoration: none;
+    font-size: 16px;
+    background-color: orangered;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+/* donation amount part */
+
+.donatiomn-text {
+
+    margin: auto;
+    width: 40%;
+    text-align: center;
+
+}
+
+.donation {
+
+    margin: 100px 0 120px;
+
+}
+
+.donation-amount {
+
+    margin: 40px 40% 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.amount {
+    background-color: floralwhite;
+    padding: 30px;
+    margin: 25px;
+    border-radius: 7px;
+    font-size: 25px;
+}
+
+#second-amount {
+    padding: 30px;
+    margin: 25px;
+    background-color: rgb(238, 226, 222);
+    border: 1px solid red;
+    color: red;
+    border-radius: 7px;
+    font-size: 25px;
+}
+
+.heading-text {
+    font-size: 2em;
+}
+
+.other-amount {
+
+
+    margin: auto;
+    width: 40%;
+    text-align: center;
+
+}
+
+/* pllan and donation sector*/
+.donate-plan {
+    margin: 100px 0 100px;
+}
+
+.planning-sector {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 50px 50px;
+}
+
+.food-plan {
+    background-color: rgb(240, 245, 243);
+    margin: 30px;
+    padding: 2%;
+    border-radius: 15px;
+}
+
+.shelter-plan {
+    background-color: rgb(241, 243, 193);
+    margin: 30px;
+    padding: 2%;
+    border-radius: 15px;
+}
+
+.education-plan {
+    background-color: rgb(210, 233, 218);
+    margin: 30px;
+    padding: 2%;
+    border-radius: 15px;
+}
+
+.planing-heading {
+    margin: auto;
+    width: 40%;
+    text-align: center;
+}
+
+
+/* here are the work section styling */
+
+.work-section {
+    margin: 60px 0 100px;
+}
+
+.work-methods {
+    display: flex;
+    text-align: center;
+    margin: 0 30px 50px 30px;
+}
+
+#work-head {
+    text-align: center;
+    font-size: 2em;
+}
+
+.work-description {
+    margin-left: 20px;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: justify;
+    height: 260px;
+}
+
+.method-one {
+    background-color: rgb(194, 218, 240);
+
+}
+
+.method-two {
+    background-color: rgb(235, 222, 222);
+}
+
+.method-three {
+
+    background-color: rgb(169, 226, 207);
+}
+
+.method-four {
+    background-color: rgb(206, 188, 209);
+}
+
+/* subscribe part  for update is here */
+
+.update {
+    margin: auto;
+    width: 40%;
+    text-align: center;
+
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    margin: 50px 170px;
+    border-radius: 30px;
+    background-color: antiquewhite;
+
+}
+
+.form-box {
+    padding: 10px;
+    border-radius: 5px;
+    background: #ececec;
+
+}
+
+.form-box input {
+    font-size: 18px;
+    color: black;
+    padding: 15px 15px;
+    border: none;
+    outline: none;
+    background: #ececec;
+}
+
+.form-box button {
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    background: orangered;
+    cursor: pointer;
+
+}
+
+/*
+ the footer the last part
+  */
+
+footer {
+    margin-top: 90px;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    width: 100%;
+    text-align: center;
+
+}
+
+footer h1 {
+    font-style: oblique;
+    color: orangered;
+}
